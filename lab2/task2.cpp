@@ -19,12 +19,6 @@ struct Node* createNode(int data) {
     return newNode;
 }
 
-void insertAtHead(int val) {
-    struct Node* newNode = createNode(val);
-    newNode->next = head;
-    head = newNode;
-}
-
 void insertAtEnd(int val) {
     struct Node* newNode = createNode(val);
     

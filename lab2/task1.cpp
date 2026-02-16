@@ -4,12 +4,13 @@
 
 using namespace std;
 
+
 struct Node{
     int data;
     struct Node* next;
 };
 
-int main(){
+int main(void){
     struct Node* first = (struct Node*)malloc(sizeof(struct Node));
     struct Node* second = (struct Node*)malloc(sizeof(struct Node));
 
