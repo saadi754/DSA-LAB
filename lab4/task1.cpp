@@ -4,7 +4,7 @@
 
 using namespace std;
 int queue[MAX];
-int front = -1;
+int front = 0;
 int rear = -1;
 
 void enqueue(int value){
@@ -12,7 +12,6 @@ void enqueue(int value){
     if(rear == MAX - 1){
         cout<<" Queue Overflow ! Cannot enqueue = "<<value<<endl;
     }else{
-        if(front == -1) front = 0;
         rear++;
         queue[rear] = value;
         cout<<"entered to queue = "<<value<<endl;
