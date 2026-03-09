@@ -1,19 +1,20 @@
 #include <bits/stdc++.h>
 using namespace std;
 
+int Array_size = 10000;
 int main() {
     ofstream f("numbers.txt");
-    int arr[20000];
+    int arr[Array_size];
     
-    for (int i = 0; i < 20000; i++) {
+    for (int i = 0; i < Array_size; i++) {
         arr[i] = i;
     }
     
-    for (int i = 0; i < 20000; i++) {
-        swap(arr[i], arr[rand() % 20000]);
+    for (int i = 0; i < Array_size; i++) {
+        swap(arr[i], arr[rand() % Array_size]);
     }
     
-    for (int i = 0; i < 20000; i++) {
+    for (int i = 0; i < Array_size; i++) {
         f << arr[i] << "\n";
     }
 }
