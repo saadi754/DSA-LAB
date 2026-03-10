@@ -7,7 +7,7 @@ change variable(array_size in bubble sort)
 
 then proceeed to each of the sortings in the task2 file.
 https://www.youtube.com/watch?v=8mJ-OhcfpYg (insertion sort)
-
+https://www.youtube.com/watch?v=Vtckgz38QHs (quick sort)
 ---
 
 ## TIME COMPLEXITY ANALYSIS

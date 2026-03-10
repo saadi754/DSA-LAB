@@ -2,7 +2,7 @@
 #include <time.h>
 using namespace std;
 
-int Array_size = 10000;
+int Array_size = 50000;
 
 void selectionSort(int arr[], int n) {
     for (int i = 0; i < n; i++) {

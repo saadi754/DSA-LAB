@@ -1,7 +1,7 @@
 #include <bits/stdc++.h>
 using namespace std;
 
-int Array_size = 10000;
+int Array_size = 50000;
 int main() {
     ofstream f("numbers.txt");
     int arr[Array_size];
