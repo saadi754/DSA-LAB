@@ -3,7 +3,7 @@
 using namespace std;
 
 
-int Array_size = 20000;
+int Array_size = 50000;
 int main() {
     ifstream in("numbers.txt");
     int arr[Array_size];
